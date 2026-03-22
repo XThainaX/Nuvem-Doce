@@ -1,0 +1,213 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Meow+Script&family=Neonderthaw&family=Quicksand:wght@300..700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Quicksand', sans-serif;
+    background-color: #FFE1D9;
+    color: #333;
+    overflow: auto;
+}
+
+.title1 {
+    font-family: 'Neonderthaw', cursive;
+    font-size: 5.5rem;
+    font-weight: 550;
+    color: #ff69b4;
+    text-align: center;
+    margin-top: 1%;
+    text-size-adjust: 55%;
+}
+
+.title2 {
+    font-family: 'Meow Script', cursive;
+    font-size: 4.5rem;
+    color: #ff1493;
+    text-align:left;
+    margin-left: 50%;
+    margin-top: -2%;
+    text-size-adjust: 55%;
+}
+
+@media (max-width: 768px) {
+    .title2 {
+        margin-left: 55%;
+    }
+}
+
+.nfconteiner {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+
+.nuvensfundo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('Imagens/nuvem\ doce.png');
+    background-position: center;
+    opacity: 0.3;
+    background-size: 80px; 
+    background-repeat: repeat; 
+    z-index: -2; 
+}
+
+.nuvem1 {
+    position: absolute;
+    top: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 800px;
+    height: 400px;
+    background-image: url('Imagens/site nuvem doce.gif');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    z-index: -1;
+}
+
+@media (max-width: 768px) {
+    .nuvem1 {
+        width: 55%;
+        height: 50%;
+    }
+}
+
+
+.menu {
+    display: flex;
+    justify-content: center;
+    margin-top: 1.5rem;
+    background-color: #bb0459;
+    padding: 1.5rem 1rem;
+
+}
+
+@media (max-width: 768px) {
+    .menu {
+        width: 100%;
+        height: 100%;
+    }
+}
+
+.nav-item {
+    margin: 0 0.5rem;
+    font-size: 25px;
+    font-weight: bold;
+    color: #fff;
+    text-transform: uppercase;
+    background-color: #f1879c;
+    padding: 0.5rem 0.5rem;
+    border-radius: 1rem;
+    border-style: dashed;
+    transition: background-color 0.3s ease;
+    text-size-adjust: 50%;
+}
+
+@media (max-width: 768px) {
+    .nav-item {
+        width: 10%;
+        height: 100%;
+    }
+}
+
+nav {
+    margin-top: 1rem;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 0.5rem;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #ff69b4;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #ff1493;
+}
+
+@media (max-width: 768px) {
+    nav {
+        width: 10%;
+        height: 100%;
+    }
+
+    nav ul {
+        width: 100%;
+        height: 100%;
+    }
+
+    nav ul li{
+        width: 100%;
+        height: 100%;
+    }
+
+    nav ul li a {
+        width: 100%;
+        height: 100%;
+    }
+}
+
+.subtitulo {
+    font-family: 'Quicksand', cursive;
+    font-size: 3rem;
+    color: #b70148;
+    text-align: center;
+    margin-top: 2rem;
+    text-transform: uppercase;
+}
+
+.subti1 {
+    font-family: 'Quicksand', cursive;
+    font-size: 2rem;
+    color: #b70148;
+    text-align: left;
+    margin-top: 2rem;
+    margin-left: 5%;
+    text-transform: uppercase;
+}
+
+.subti2 {
+    font-family: 'Quicksand', cursive;
+    font-size: 1.5rem;
+    color: #b70148;
+    text-align: left;
+    margin-top: 1rem;
+    margin-left: 5%;
+}
+
+
+.th {
+    font-family: 'Quicksand', cursive;
+    font-size: 1.5rem;
+    color: #b70148;
+    text-align: left;
+    margin-top: 1rem;
+    margin-left: 5%;
+}
+
+.doceimg {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-top: 2rem;
+    max-width: 10%;
+    height: 10%
+}
