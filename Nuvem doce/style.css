@@ -9,7 +9,10 @@ body {
     font-family: 'Quicksand', sans-serif;
     background-color: #FFE1D9;
     color: #333;
+<<<<<<< HEAD
     overflow: auto;
+=======
+>>>>>>> 12714279f8f0da901bf7d646b2f434348167e0b9
 }
 
 .title1 {
@@ -18,7 +21,11 @@ body {
     font-weight: 550;
     color: #ff69b4;
     text-align: center;
+<<<<<<< HEAD
     margin-top: 1%;
+=======
+    margin-top: 10px;
+>>>>>>> 12714279f8f0da901bf7d646b2f434348167e0b9
     text-size-adjust: 55%;
 }
 
@@ -28,7 +35,11 @@ body {
     color: #ff1493;
     text-align:left;
     margin-left: 50%;
+<<<<<<< HEAD
     margin-top: -2%;
+=======
+    margin-top: -4%;
+>>>>>>> 12714279f8f0da901bf7d646b2f434348167e0b9
     text-size-adjust: 55%;
 }
 
@@ -41,6 +52,10 @@ body {
 .nfconteiner {
     position: relative;
     width: 100%;
+<<<<<<< HEAD
+=======
+    height: 100vh;
+>>>>>>> 12714279f8f0da901bf7d646b2f434348167e0b9
     overflow: hidden;
 }
 
@@ -53,9 +68,15 @@ body {
     background-image: url('Imagens/nuvem\ doce.png');
     background-position: center;
     opacity: 0.3;
+<<<<<<< HEAD
     background-size: 80px; 
     background-repeat: repeat; 
     z-index: -2; 
+=======
+    background-size: 80px; /* tamanho pequeno das nuvens */
+    background-repeat: repeat; /* repete várias vezes */
+    z-index: -2; /* para ficar atrás de tudo */
+>>>>>>> 12714279f8f0da901bf7d646b2f434348167e0b9
 }
 
 .nuvem1 {
@@ -69,7 +90,11 @@ body {
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
+<<<<<<< HEAD
     z-index: -1;
+=======
+    z-index: -1 /* para ficar atrás do título e do nav */;
+>>>>>>> 12714279f8f0da901bf7d646b2f434348167e0b9
 }
 
 @media (max-width: 768px) {
@@ -112,7 +137,11 @@ body {
 
 @media (max-width: 768px) {
     .nav-item {
+<<<<<<< HEAD
         width: 10%;
+=======
+        width: 100%;
+>>>>>>> 12714279f8f0da901bf7d646b2f434348167e0b9
         height: 100%;
     }
 }
@@ -144,7 +173,11 @@ nav ul li a:hover {
 
 @media (max-width: 768px) {
     nav {
+<<<<<<< HEAD
         width: 10%;
+=======
+        width: 5%;
+>>>>>>> 12714279f8f0da901bf7d646b2f434348167e0b9
         height: 100%;
     }
 
@@ -154,7 +187,11 @@ nav ul li a:hover {
     }
 
     nav ul li{
+<<<<<<< HEAD
         width: 100%;
+=======
+        width: 5%;
+>>>>>>> 12714279f8f0da901bf7d646b2f434348167e0b9
         height: 100%;
     }
 
@@ -173,6 +210,7 @@ nav ul li a:hover {
     text-transform: uppercase;
 }
 
+<<<<<<< HEAD
 .subti1 {
     font-family: 'Quicksand', cursive;
     font-size: 2rem;
@@ -211,3 +249,5 @@ nav ul li a:hover {
     max-width: 10%;
     height: 10%
 }
+=======
+>>>>>>> 12714279f8f0da901bf7d646b2f434348167e0b9
