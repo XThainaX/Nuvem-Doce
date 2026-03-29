@@ -9,7 +9,10 @@ body {
     font-family: 'Quicksand', sans-serif;
     background-color: #FFE1D9;
     color: #333;
-    overflow: auto;
+}
+ main {
+
+    text-align: center;
 }
 
 .title1 {
@@ -41,27 +44,26 @@ body {
 }
 
 .nfconteiner {
-    position: relative;
+    position: fixed;
     width: 100%;
     height: 100vh;
-    overflow: hidden;
+    overflow: auto;
 }
 
 .nuvensfundo {
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
     background-image: url('Imagens/nuvem\ doce.png');
-    background-position: center;
+    background-position: fixed;
     opacity: 0.3;
     background-size: 80px; 
     background-repeat: repeat; 
     z-index: -2; 
-    background-size: 80px; /* tamanho pequeno das nuvens */
-    background-repeat: repeat; /* repete várias vezes */
-    z-index: -2; /* para ficar atrás de tudo */
+    background-size: 80px;
+    z-index: -2; 
 }
 
 .nuvem1 {
@@ -91,7 +93,7 @@ body {
     display: flex;
     justify-content: center;
     margin-top: 1.5rem;
-    background-color: #bb0459;
+    background-color: #c54086;
     padding: 1.5rem 1rem;
 
 }
@@ -113,7 +115,7 @@ body {
     padding: 0.5rem 0.5rem;
     border-radius: 1rem;
     border-style: dashed;
-    transition: background-color 0.3s ease;
+    transition: 1s ease;
     text-size-adjust: 50%;
 }
 
